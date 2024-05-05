@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./brain.jpg">
+    <title>Calculator</title>
+</head>
+<script src="calc.js"></script>
+<body>
+    <div class="navbar">
+        <img class="brain" src="https://www.google.com/imgres?q=ipl%20logo&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fipl-logo-transparent-png-download-260nw-2399892679.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Ftata-ipl-2024-logo-indian-premier-2273202477&docid=ux7ZBxlHR-E9vM&tbnid=yS-HwHgaRcxyOM&vet=12ahUKEwi-6KPRlIWFAxV_UGcHHfDPCTUQM3oECDEQAA..i&w=260&h=280&hcb=2&ved=2ahUKEwi-6KPRlIWFAxV_UGcHHfDPCTUQM3oECDEQAA">
+        <span class="headername">IPL AUCTION CALCULATOR</span>
+    </div>
+    <div class="calc-container">
+        <div class="calc-design">
+            <input type="text" class="display" id="ans" placeholder="Ans">
+            <table class="buttons">
+                <tr class="table-row">
+                    <td><input type="button" style="color: red;" class="button" id="clear" value="C" onclick="Clear()"></td>
+                    <td><input type="button" class="button" id="clear" value="%" onclick="Dislay('%')" ></td>
+                    <td><input type="button" class="button" id="clear" value="<" onclick="BackSpace()"></td>
+                    <td><input type="button" class="button" id="clear" value="/" onclick="Dislay('/')"></td>
+                </tr>
+                <tr class="table-row">
+                    <td><input type="button" class="button" id="clear" value="7"onclick="Dislay('7')"></td>
+                    <td><input type="button" class="button" id="clear" value="8" onclick="Dislay('8')"></td>
+                    <td><input type="button" class="button" id="clear" value="9" onclick="Dislay('9')"></td>
+                    <td><input type="button" class="button" id="clear" value="x" onclick="Dislay('*')"></td>
+                </tr>
+                <tr class="table-row">
+                    <td><input type="button" class="button" id="clear" value="4" onclick="Dislay('4')"></td>
+                    <td><input type="button" class="button" id="clear" value="5" onclick="Dislay('5')"></td>
+                    <td><input type="button" class="button" id="clear" value="6" onclick="Dislay('6')"></td>
+                    <td><input type="button" class="button" id="clear" value="-" onclick="Dislay('-')"></td>
+                </tr>
+                <tr class="table-row">
+                    <td><input type="button" class="button" id="clear" value="1" onclick="Dislay('1')"></td>
+                    <td><input type="button" class="button" id="clear" value="2" onclick="Dislay('2')"></td>
+                    <td><input type="button" class="button" id="clear" value="3" onclick="Dislay('3')"></td>
+                    <td><input type="button" class="button" id="clear" value="+" onclick="Dislay('+')"></td>
+                </tr>
+                <tr class="table-row">
+                    <td><input type="button" class="button" id="clear" value="00" onclick="Dislay('00')"></td>
+                    <td><input type="button" class="button" id="clear" value="0" onclick="Dislay('0')"></td>
+                    <td><input type="button" class="button" id="clear" value="." onclick="Dislay('.')"></td>
+                    <td><input type="button" class="button" id="clear" value="=" Onclick="Result()" onclick="Dislay('%')"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

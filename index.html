@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>HOME PAGE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="background-container">
+            <img src = "https://wallpapers.com/images/featured/ipl-2021-ix7zwgff29ylomuf.jpg" class = "background-container">
+        </div>
+        <div class="container">
+            <h1 class="c1">IPL AUCTION JUDGEMENT CRITERIA</h1>
+            <form id="judgmentForm" method="post" action="calculate_target.php">
+                
+                
+                <label for="bidderName">Bidder Name</label>
+                <input type="text" id="bidderName" name = "bidderName" placeholder="Enter bidder name" required>
+    
+                <label for="TOTAL RUNS "> Total Runs:</label>
+                <input type="text" id="total_runs" name="total_runs" placeholder="Enter score" required>
+    
+                <label for="TOTAL OVERS">Total Overs Played(Opponent):</label>
+                <input type="text" id="total_overs" name = "total_overs" placeholder="Enter score"required>
+    
+                <label for="TOTAL WICKETS">Total Wickets(Opponent):</label>
+                <input type="text" id="total_wickets" name="total_wickets" placeholder="Enter score" required><br><br>
+    
+                <button type="submit">TARGET</button>
+                <br><br>
+                <div>
+                    <a href="calculator.html" target="_blank">CLICK HERE</a> TO CALCULATE THE TOTAL<br><br>
+                    <a href="index2.html" target="_blank">CLICK HERE TO</a> CALCULATE CRITERIA 2<br><br>
+                    <a href="index3.html" target="_blank">CLICK HERE TO</a> CALCULATE CRITERIA 3<br>
+                </div>
+    
+                <div class="result" id="result">
+        
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

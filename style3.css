@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    color: black;
+    text-shadow: whitesmoke;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://wallpapers.com/images/featured/ipl-2021-ix7zwgff29ylomuf.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust as needed to cover the entire container */
+    background-position: center;
+    z-index: -1;
+}
+.c1{
+    font-family:Georgia, 'Times New Roman', Times, serif0;
+}
+.f{
+    font-size: large;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

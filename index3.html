@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>HOME PAGE</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+        <link rel="icon" href="https://www.google.com/imgres?q=ecell%20sastra%20logo&imgurl=https%3A%2F%2Fecellsastra.org%2Fassets%2FWhite.png&imgrefurl=https%3A%2F%2Fecellsastra.org%2F&docid=NdGgERD3vBA4JM&tbnid=jFAVSIXd59L6FM&vet=12ahUKEwiWoreIlYeFAxUOsVYBHXTwAkEQM3oECEsQAA..i&w=1024&h=1024&hcb=2&ved=2ahUKEwiWoreIlYeFAxUOsVYBHXTwAkEQM3oECEsQAA">
+    </head>
+    <body>
+        <div class="background-container">
+            <img src = "https://wallpapers.com/images/featured/ipl-2021-ix7zwgff29ylomuf.jpg" class = "background-container">
+        </div>
+        <div class="container">
+            <h1 class="c1">IPL AUCTION JUDGEMENT CRITERIA</h1>
+            <form id="judgmentForm" method="post" action="calculate_targetc3.php">
+                
+                
+                <label for="bidderName">Bidder Name</label>
+                <input type="text" id="bidderName" name = "bidderName" placeholder="Enter bidder name" required>
+    
+                <label for="BATTING AVERAGE "> Batting Average:</label>
+                <input type="text" id="batting_avg" name="batting_avg" placeholder="Enter score" required>
+    
+                <label for="BOWLING AVERAGE">Bowling Average:</label>
+                <input type="text" id="bowling_avg" name = "bowling_avg" placeholder="Enter score"required>
+    
+                <label for="STRIKE RATE "> Strike Rate:</label>
+                <input type="text" id="total_runs" name="strike_rate" placeholder="Enter score" required>
+    
+                 <label for="ECONOMY">Economy: </label>
+                <input type="text" id = "economy" name="economy" placeholder="Enter score" required>
+    
+                <button type="submit">TARGET</button>
+                <br><br>
+                <div>
+                    <a href="calculator.html" target="_blank">CLICK HERE</a> TO CALCULATE THE TOTAL<br>
+                </div>
+    
+                <div class="result" id="result">
+        
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
